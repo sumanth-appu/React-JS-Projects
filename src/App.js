@@ -4,12 +4,8 @@ import {Footer} from './My component/Footer';
 import React, { useState ,useEffect} from 'react';
 import './App.css';
 import { AddTodo } from './My component/AddTodo';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { Home } from './My component/Home';
+
 
 
 function App() {
@@ -55,6 +51,7 @@ function App() {
   return (
    <>
         <Header title={'My-TodoList'}/>
+        <Home/>
         <AddTodo addTodo={addTodo}/>
         <Todos todos={todos} onDelete={onDelete}/>
         <Footer/>
