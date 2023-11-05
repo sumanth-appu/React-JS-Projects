@@ -12,9 +12,7 @@ export const Home = () => {
         Home Page 
         </h1> 
         <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus delectus quia animi suscipit 
-        laudantium sequi laboriosam, voluptas consequuntur voluptatum eius non sint pariatur nisi provident 
-        sit quis debitis, impedit iste.
+        Add events of the day
         </p>
    </div>
   )
